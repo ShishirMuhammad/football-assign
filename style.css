@@ -10,7 +10,9 @@ p{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
-/* Comnebol Style */
+/* -------------------------------------
+         First section Style 
+----------------------------------------*/
 .container{
     background-color: #2D25A0;
     width: 1440px;
@@ -30,16 +32,14 @@ p{
     margin-left: 167px;
 }
 .button{
-    width: 168px;
-    height: 44px;
+    /* width: 168px; */
+    /* height: 44px; */
     background-color: #E02C6D;
-    margin-left: 168px;
-    
-}
-.button a{
+    margin-left: 175px;
+    padding: 15px;
     color: white;
     text-decoration: none;
-    text-align: justify;
+    
 }
 .banner img{
     width: 556.01px;
@@ -48,9 +48,9 @@ p{
     margin-right: 197px;
     /* margin-left: 686px; */
 }
-/*------------------------------- 
-Players grid Display 
----------------------------------*/
+/*--------------------------------------- 
+   Players grid Display(second section) 
+-----------------------------------------*/
 .players{
     margin-top: 70px;
     margin-left: 180px;
@@ -90,7 +90,7 @@ Players grid Display
     font-weight: 700;
     font-size: 48px;
 }
-.button2{
+/* .button2{
     width: 173px;
     height: 44px;
     background-color: #E02C6D;
@@ -98,11 +98,15 @@ Players grid Display
 .button2 a{
     text-decoration: none;
     color: white;
-}
+} */
 .match-photo img{
     margin-top: 165px;
     width: 567px;
     height: 427px;
+}
+.additional{
+    display: block;
+    margin: 170px;
 }
 .football{
     display: flex;
