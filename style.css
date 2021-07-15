@@ -80,6 +80,9 @@ p{
     width: 300px;
     height: 154px;
 }
+/* ----------------------------
+       Highlights Style 
+-----------------------------*/
 .highlights{
     display: flex;
     justify-content: space-between;
@@ -96,24 +99,21 @@ p{
     font-weight: 700;
     font-size: 48px;
 }
-/* .button2{
-    width: 173px;
-    height: 44px;
-    background-color: #E02C6D;
-}
-.button2 a{
-    text-decoration: none;
-    color: white;
-} */
 .match-photo img{
     margin-top: 165px;
     width: 567px;
     height: 427px;
 }
+/*--------------------------------
+      Additonal Style
+ ---------------------------------*/
 .additional{
     display: block;
     margin: 170px;
 }
+/* --------------------------------
+       Football Logo Style 
+---------------------------------*/
 .football{
     display: flex;
     flex-direction: column;
@@ -130,7 +130,6 @@ p{
 }
 .social-logo{
     display: flex;
-    /* margin-left: 157px; */
     margin-top: 20px;
     padding: 20px;
 }
@@ -144,7 +143,85 @@ p{
     
 }
 .footer{
-    /* margin-left: 124px; */
     margin-top: 20px;
     margin-bottom: 63px;
+}
+/*----------------------------------------- 
+         Media Queries
+----------------------------------------- */
+/* mobile devices */
+@media only screen and (max-width:688px) {
+     .container{
+        width: 340px;
+        height: 795px;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-title{
+        width: 278px;
+        height: 138px;
+        color: white;
+        font-weight: 700;
+        font-size: 36px;
+        margin-top: 112px;
+        margin-left: 16px;
+    }
+    .text a{
+        background-color: #E02C6D;
+        margin-left: 19px;
+        margin-top: 280px;
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        
+    }
+    .banner img{
+        width: 329px;
+        height: 260px;
+        margin-top: 200px;
+        margin-left: 16px;
+        margin-right: 15px;
+        margin-bottom: 62px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 15px;
+    }
+    .player{
+        width: 300px;
+    }
+    .highlights{
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        margin-left: 15px;
+        margin-bottom: 80px;
+        padding: 15px;
+    }
+    .match-photo img{
+        width: 328px;
+        height: 248px;
+    }
+    .additional{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+   .text img{
+       width: 328px;
+       height: 248px;
+   }
+   .football{
+       display: flex;
+       flex-direction: column;
+   }
+   .logo img{
+       width: 166px;
+       height: 65px;
+       margin-left: 15px;
+       margin-right: 1071px;
+   }
 }
